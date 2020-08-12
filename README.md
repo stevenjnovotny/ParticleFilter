@@ -1,6 +1,7 @@
 [//]: # (Image References)
 
 [image1]: ./simulation.png "Model Visualization"
+[image2]: ./pf_flow.png "Particle filter Flow"
 
 # Overview
 This is an implementation of a 2 dimensional particle filter in C++. The particle filter is given a map and some initial localization information (analogous to what a GPS would provide). At each time step the filter will also get observation and control data.
@@ -25,6 +26,12 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 3. ./run.sh
 
 ## Results
+
+The implementation utilized the following flow for the algorithm:
+
+
+
+The particle filter used only 50 particles to allow for computational efficiency. 
 
 Using the Udacity simulator, the particle filter maintained localization to within ~0.1m in x and y coordinates.
 
