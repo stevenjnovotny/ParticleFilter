@@ -33,6 +33,6 @@ The implementation utilized the following flow for the algorithm:
 
 The particle filter used only 50 particles to allow for computational efficiency. 
 
-Using the Udacity simulator, the particle filter maintained localization to within ~0.1m in x and y coordinates.
+Using the Udacity simulator, the particle filter maintained localization to within ~0.1m in x and y coordinates. The figure below shows the vehicle; the region of particles; and the predicted and true distances to map landmarks.
 
 ![alt text][image1]
