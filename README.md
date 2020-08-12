@@ -29,7 +29,7 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 
 The implementation utilized the following flow for the algorithm:
 
-
+![alt text][image2]
 
 The particle filter used only 50 particles to allow for computational efficiency. 
 
